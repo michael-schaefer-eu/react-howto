@@ -1,35 +1,35 @@
 # react-howto
 
-If you’re new to React (or frontend in general) you may find the ecosystem confusing. There are a few reasons for this.
+Falls React (oder Frontend-Entwicklung im Allgemeinen) neu für dich ist, kann das Ökosystem verwirrend sein. Dafür gibt es einige Gründe.
 
-* React has historically been targeted at early-adopters and experts
-* Facebook only open-sources what it actually uses, so it doesn’t focus on tooling for smaller-than-Facebook projects
-* There’s a lot of bad marketing masquerading as React guides
+* React war von Anfang an auf frühzeitige Anwender und Experten ausgerichtet
+* Facebook veröffentlicht nur das, was es selber nutzt. Deshalb gibt es keinen Fokus auf Werkzeuge für 'kleiner-als-Facebook-Projekte'
+* Es gibt viel schlechtes Marketing, das sich als React Guides tarnt.
 
-Throughout this document, I’ll assume you’ve built a web page with HTML, CSS and JavaScript.
+In diesem Dokument gehe ich davon aus, dass du eine Webseite mit HTML, CSS und JavaScript erstellt hast.
 
-## Why should you listen to me?
+## Warum solltest du auf mich hören?
 
-There’s a ton of conflicting advice about React out there; why listen to me?
+Es gibt einen Haufen widersprüchlicher Ratgeber, warum solltest also du auf mich hören?
 
-I was one of the original members of the Facebook team that built and open-sourced React. I’m no longer at Facebook and I’m now at a small startup, so I have a non-Facebook perspective as well.
+Ich war eines der ursprünglichen Mitglieder im Facebook Team, das React entwickelt und als Open-Source veröffentlicht hat. Ich arbeite nicht mehr bei Facebook und bin stattdessen in einem kleinen StartUp, dadurch habe ich auch eine nicht-facebook Perspektive.
 
-## How to tackle the React ecosystem
+## Wie man das React Ökosystem bewältigt
 
-All software is built on a stack of technologies, and you need to understand enough of that stack to build your app. The reason why the React ecosystem of tooling seems overwhelming is because it’s always explained in the wrong order.
+Jede Software wird auf einem technischen Stack aufgebaut und man muss diesen Stack verstehen, um eine App entwickeln zu können. Der Grund, warum das React Ökosystem von Werkzeugen so erdrückend scheint, liegt darin, dass es in der falschen Reihenfolge erklärt wird.
 
-You should learn, in this order, **without skipping ahead or learning concurrently**:
+Du solltest in genau dieser Reihenfolge lernen, **ohne einen Schritt auszulassen oder parallel zu lernen**:
 
-* [React itself](#learning-react-itself)
+* [React selbst](#learning-react-itself)
 * [`npm`](#learning-npm)
 * [JavaScript “bundlers”](#learning-javascript-bundlers)
 * [ES6](#learning-es6)
 * [Routing](#learning-routing)
 * [Flux](#learning-flux)
 
-**You don't need to learn all of these to be productive with React.** Only move to the next step if you have a problem that needs to be solved.
+**Du brauchst nicht alles zu lernen, um mit React produktiv zu sein.** Gehe erst zum nächsten Schritt, wenn du ein Problem hast, das gelöst werden muss.
 
-Additionally, there are a few topics that are often mentioned in the React community that are "bleeding edge". The topics below are interesting, but they're difficult to understand, are far less popular than the above topics and **aren't required for most apps**.
+Zusätzlich gibt es einige Punkte, die in der React Community oft erwähnt werden, die sich in einem frühen Stadium ("bleeding edge") befinden. Die folgenden Punkte sind zwar interessant, aber sie sind schwer zu verstehen, wenig verbreitet und **für die meisten Anwendungen nicht notwendig**.
 * [Inline styles](#learning-inline-styles)
 * [Server rendering](#learning-server-rendering)
 * [Immutable.js](#learning-immutablejs)
