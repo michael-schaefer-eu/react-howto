@@ -43,9 +43,9 @@ Ich denke immer noch, dass der einfachste Weg, um React zu lernen, [das offiziel
 
 ## `npm` lernen
 
-`npm` is the Node.js package manager and is the most popular way front-end engineers and designers share JavaScript code. It includes a module system called `CommonJS` and lets you install command-line tools written in JavaScript. Read [this post](http://0fps.net/2013/01/22/commonjs-why-and-how/) for background on why `CommonJS` is necessary for browsers, or the [CommonJS Spec Wiki](http://wiki.commonjs.org/wiki/Introduction) for more on the `CommonJS` API.
+`npm` ist ein Node.js Package-Manager und der beliebteste Weg von Frontend-Entwicklern und Designern um JavaScript-Code mit einander zu teilen. Es enthält ein Modul-System namens `CommonJS` und ermöglicht die Installation von JavaScript-Kommandozeilenprogrammen. [Hier](http://0fps.net/2013/01/22/commonjs-why-and-how/) kannst du nachlesen, warum `CommonJS` für den Browser benötigt wird, oder lies die [CommonJS Spec Wiki](http://wiki.commonjs.org/wiki/Introduction) für weitere Infos zur `CommonJS` API.
 
-Most reusable components, libraries and tools in the React ecosystem are available as `CommonJS` modules and are installed with `npm`.
+Die meisten wiederverwendbaren Komponenten, Bibliotheken und Werkzeuge im React Ökosystem sind als `CommonJS` Module verfügbar und werden mit `npm` installiert.
 
 ## JavaScript Bundler lernen
 
